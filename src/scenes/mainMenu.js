@@ -22,13 +22,13 @@ export default function mainMenu() {
   ];
 
   k.add([
-    k.text("SONIC RING RUN", { font: "mania", size: 96 }),
+    k.text("SONIC RING RUN", { font: "danfo", size: 96 }),
     k.anchor("center"),
     k.pos(k.center().x, 200),
   ]);
 
   k.add([
-    k.text("Press Space/Click/Touch to Play", { font: "mania", size: 32 }),
+    k.text("Press Space/Click/Touch to Play", { font: "danfo", size: 32 }),
     k.anchor("center"),
     k.pos(k.center().x, k.center().y - 200),
   ]);

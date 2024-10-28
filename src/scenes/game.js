@@ -28,7 +28,7 @@ export default function game() {
 
   const controlsText = k.add([
     k.text("Press Space/Click/Touch to Jump!", {
-      font: "mania",
+      font: "danfo",
       size: 64,
     }),
     k.anchor("center"),
@@ -41,7 +41,7 @@ export default function game() {
   });
 
   const scoreText = k.add([
-    k.text("SCORE : 0", { font: "mania", size: 72 }),
+    k.text("SCORE : 0", { font: "danfo", size: 72 }),
     k.pos(20, 20),
   ]);
   let score = 0;

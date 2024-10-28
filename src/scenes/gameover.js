@@ -27,13 +27,13 @@ export default function gameover(citySfx) {
   }
 
   k.add([
-    k.text("GAME OVER", { font: "mania", size: 96 }),
+    k.text("GAME OVER", { font: "danfo", size: 96 }),
     k.anchor("center"),
     k.pos(k.center().x, k.center().y - 300),
   ]);
   k.add([
     k.text(`BEST SCORE : ${bestScore}`, {
-      font: "mania",
+      font: "danfo",
       size: 64,
     }),
     k.anchor("center"),
@@ -41,7 +41,7 @@ export default function gameover(citySfx) {
   ]);
   k.add([
     k.text(`CURRENT SCORE : ${currentScore}`, {
-      font: "mania",
+      font: "danfo",
       size: 64,
     }),
     k.anchor("center"),
@@ -58,7 +58,7 @@ export default function gameover(citySfx) {
   ]);
 
   bestRankBox.add([
-    k.text(bestRank, { font: "mania", size: 100 }),
+    k.text(bestRank, { font: "danfo", size: 100 }),
     k.anchor("center"),
   ]);
 
@@ -72,14 +72,14 @@ export default function gameover(citySfx) {
   ]);
 
   currentRankBox.add([
-    k.text(currentRank, { font: "mania", size: 100 }),
+    k.text(currentRank, { font: "danfo", size: 100 }),
     k.anchor("center"),
   ]);
 
   k.wait(1, () => {
     k.add([
       k.text("Press Space/Click/Touch to Play Again", {
-        font: "mania",
+        font: "danfo",
         size: 64,
       }),
       k.anchor("center"),

@@ -4,7 +4,7 @@ import game from "./scenes/game";
 import gameover from "./scenes/gameover";
 import mainMenu from "./scenes/mainMenu";
 
-k.loadSprite("chemical-bg", "graphics/chemical-bg.png");
+k.loadSprite("chemical-bg", "graphics/bg.jpg");
 k.loadSprite("platforms", "graphics/platforms.png");
 k.loadSprite("sonic", "graphics/sonic.png", {
   sliceX: 8,
@@ -28,7 +28,7 @@ k.loadSprite("motobug", "graphics/motobug.png", {
     run: { from: 0, to: 4, loop: true, speed: 8 },
   },
 });
-k.loadFont("mania", "fonts/mania.ttf");
+k.loadFont("danfo", "fonts/Danfo.ttf");
 k.loadSound("destroy", "sounds/Destroy.wav");
 k.loadSound("hurt", "sounds/Hurt.wav");
 k.loadSound("hyper-ring", "sounds/HyperRing.wav");
